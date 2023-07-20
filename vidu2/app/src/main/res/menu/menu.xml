@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mnuGoiDien"
+        android:title="Goi dien" />
+    <item
+        android:id="@+id/mnuNhanTin"
+        android:title="Nhan tin" />
+    <item
+        android:id="@+id/mnuGiaiTri"
+        android:title="Giai tri" />
+    <item
+        android:id="@+id/mnuDuyetWeb"
+        android:title="Duyet web" />
+</menu>

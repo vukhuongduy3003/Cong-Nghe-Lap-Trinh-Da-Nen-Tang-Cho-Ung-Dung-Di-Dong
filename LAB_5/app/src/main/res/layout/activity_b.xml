@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bai_1.ActivityB">
+
+    <Button
+        android:id="@+id/bttinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="40dp"
+        android:text="Tính"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btchuyen1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="80dp"
+        android:layout_toRightOf="@id/bttinh"
+        android:text="Quay lại"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="130dp"
+        android:text="Số a:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Số b:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/textView5"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Số c:"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/edta1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_toRightOf="@id/textView4"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/edtb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/edta1"
+        android:layout_toRightOf="@id/textView5"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edtc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/edtb1"
+        android:layout_toRightOf="@id/textView6"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edtkq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtc1"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/textView7"
+        android:ems="10"
+        android:inputType="text"
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/textView6"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Kết quả:"
+        android:textSize="20dp"/>
+</RelativeLayout>

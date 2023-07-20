@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DangNhap</string>
+    <string-array name="listMonAn">
+        <item>Cơm</item>
+        <item>Phở bò</item>
+        <item>Phở gà</item>
+        <item>Bánh cuốn</item>
+        <item>Bún cá</item>
+    </string-array>
+</resources>

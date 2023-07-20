@@ -1,5 +1,6 @@
 package vn.com.a04_vukhuongduy;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
@@ -20,6 +21,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null) {
+            actionBar.show();
+        }
         signIn = findViewById(R.id.signIn);
         exit = findViewById(R.id.exit);
         txtUsername = findViewById(R.id.txtUsername);
