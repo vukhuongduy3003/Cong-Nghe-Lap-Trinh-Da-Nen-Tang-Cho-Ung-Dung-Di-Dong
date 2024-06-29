@@ -1,0 +1,14 @@
+{
+  "sinhViens":[
+    {
+      "TenSv":"Trần Văn An",
+      "GioiTinh":"Nam",
+      "NamSinh":"2000"
+    },
+    {
+      "TenSv":"Trần Thị Hà",
+      "GioiTinh":"Nữ",
+      "NamSinh":"2001"
+    }
+  ]
+}
